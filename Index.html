@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio Kauan Henrique</title>
+
+    <!-- link css -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <!-- Link JS -->
+    <script src="./Script.js" defer></script>
+</head>
+<body>
+    <!-- bottom -->
+    <div>
+        <div id="switch" onclick= "toggleMode()" >
+            <button></button>
+            <span></span>
+          </div>
+        </div>
+    <!-- navbar -->
+    <nav class="navbar_desktop">
+            <div>
+            <ul class="navbar_ul">
+                <li><a href="#Início">Início</a></li>
+                <li><a href="#Sobre">Sobre mim</a></li>
+                <li><a href="#Tecnologias">Tecnologias</a></li>
+                <li><a href="#Projetos">Projetos</a></li>
+                <li><a href="#Contato">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- menu mobile -->
+    <div id="abrir_menu" class="btn_menu">
+        <i class="bi bi-list"></i>
+    </div>
+
+    <div id="menu_mobile" class="navbar_mobile">
+        <div class="navbar_fechar">
+            <i class="bi bi-x-lg"></i>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#Início">Início</a></li>
+                <li><a href="#Sobre">Sobre mim</a></li>
+                <li><a href="#Tecnologias">Tecnologias</a></li>
+                <li><a href="#Projetos">Projetos</a></li>
+                <li><a href="#Contato">Contato</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="overlay_menu" class="overlay_menu"></div>
+
+<!-- header -->
+<header>
+    <!-- home -->
+    <div id="Início" class="header_left">
+        <p>Me chamo,</p>
+        <h1>Kauan Henrique de Souza</h1>
+        <p>Estudante de Análise e Desenvolvimento de Sistemas</p>
+        <a class= "saibaMais"href="#Contato">Saiba mais!</a>
+        <ul>
+            <a href="https://github.com/Kauan-Henrique-de-Souza" class="icon" target="_blank">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+              <a href="https://www.instagram.com/https_kauaan/" target="_blank">
+                <ion-icon name="logo-instagram"><ion-icon>
+              </a>
+              <a href="https://www.linkedin.com/in/kauanhenrique-souza/" target="_blank">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+        </ul>
+    </div>
+    <div class="header_right">
+        <img src="./assets/FotoPerfil.jpg" alt="Foto de Kauan Henrique">
+    </div>
+
+</header>
+<!-- About -->
+<div id="Sobre" class="about">
+    <i class="bi bi-person-video"></i>
+    <h2>Sobre mim</h2>
+    <p>Prazer, me chamo Kauan Henrique de Souza</p><br>
+
+    <p>Sou um entusiasta de TI em constante evolução.</p><br>
+
+    <p>Cursando Análise e Desenvolvimento de Sistemas</p> <br>
+
+    <p>Habilidades em desenvolvimento web, HTML, CSS e JavaScript, SQL Server e análise de dados com Python . Além disso, meu interesse por Java me levou a explorar o desenvolvimento de aplicações Spring Boot</p><br>
+   
+    <p>Se você está em busca de um profissional dedicado e entusiasmado com tecnologia, estou aqui para fazer a diferença</p><br>
+</div>
+
+<!-- Tech -->
+
+<div id="Tecnologias" class="tech">
+    <h2>Tecnologias</h2>
+
+    <ul class="tech_ul">
+        
+
+        <li>
+            <div class="image_container">
+                <img src="assets/html-logo.svg" alt="Linguagem de Marcação de Hipertexto">
+            </div>
+            <h3>HTML</h3>
+            <p>Habilidade sólida em desenvolvimento web, com proficiência em HTML para criar estruturas e conteúdo de páginas da web.</p>
+        </li>
+        
+        <li>
+            <div class="image_container">
+                <img src="assets/css-logo.svg" alt="Folhas de Estilo em Cascata">
+            </div>
+            <h3>CSS</h3>
+            <p>Experiência em estilização de páginas web com CSS, incluindo design responsivo.</p>
+        </li>
+
+        <li>
+            <div class="image_container">
+                <img src="assets/javascript.svg" alt="Linguagem de programação Javascript">
+            </div>
+            <h3>Javascript</h3>
+            <p>Competência em programação JavaScript para adicionar interatividade e dinamismo a páginas da web.</p>
+        </li>
+
+        
+        <li>
+            <div class="image_container">
+                <img src="assets/java_logo.svg" alt="Linguagem de programação Java">
+            </div>
+            <h3>Java</h3>
+            <p>Conhecimento em desenvolvimento Java com ênfase em Spring Boot.</p>
+        </li>
+        
+        <li>
+            <div class="image_container">
+                <img src="assets/python.svg" alt="Linguagem de programação Python">
+            </div>
+            <h3>Python</h3>
+            <p>Habilidade em programação Python, com foco em análise de dados, utilizando bibliotecas como Pandas para manipulação de dados, Numpy para cálculos numéricos e Matplotlib para visualização de dados. Isso me permite realizar análises de dados abrangentes e comunicar insights de maneira eficaz por meio de gráficos e visualizações.</p>
+        </li>
+        
+        <li>
+            <div class="image_container">
+                <img src="assets/microsoft-sql-server.svg" alt="Banco de Dados SQL Server">
+            </div>
+            <h3>SQL Server</h3>
+            <p>Experiência em gerenciamento de bancos de dados SQL Server, incluindo criação de tabelas, consultas SQL, otimização de consultas e administração de dados.</p>
+        </li>
+    </ul>
+    
+</div>
+<!--Projects-->
+<div id="Projetos" class="projects">
+    <div class="projects_center">
+        <h2>Meus projetos</h2>
+        <p>Alguns projetos que realizei</p>
+    </div>
+
+        <ul class="projects_ul">
+            <li class="projects_li">
+                <h3>Aplicação Todolist em Java</h3>
+                <div class="image_container">
+                     <a href="https://github.com/Kauan-Henrique-de-Souza/Projeto-Todolist---Gerenciador-de-Tarefas.git" target="_blank">
+                        <img src="assets/aplicacaoJava.png" alt="Projeto em Java (Aplicação Todolist)">
+                      
+                    </a>
+                    
+                </div>
+                <p class="description">Aplicação em Java, Gerenciador de Tarefas - Todolist, utilizando Springboot e integrando com um Banco de Dados</p>
+            </li>
+    
+            <li class="projects_li">
+                <h3>Devlinks</h3>
+                <div class="image_container">
+                    <a href="" target="_blank">
+                        <img src="./assets/GuiaLinks.png" alt="Projeto Web (Guia com links)">
+                    </a>
+                </div>
+                <p class="description">Site realizado durante curso de desenvolvimento Web, utilizando HTML, CSS  e Javascript</p>
+            </li>
+    
+            <li class="projects_li">
+                <h3>Loja de Roupas</h3>
+                <div class="image_container">
+                    <a href="https://github.com/Kauan-Henrique-de-Souza/Atividade-Bootstrap.git" target="_blank">
+                        <img src="./assets/LojadeRoupas.png" alt="Projeto Web (Loja de Roupas)">
+                    </a>
+                </div>
+                <p class="description">Projeto acadêmico com o objetivo de utilizar o framework Bootstrap</p>
+            </li>
+    
+            <li class="projects_li">
+                <h3>Tarefa em Javascript</h3>
+                <div class="image_container">
+                    <a href="https://github.com/Kauan-Henrique-de-Souza/Atividade-AV2---JS.git" target="_blank">
+                        <img src="./assets/AtividadeJS.png" alt="Tarefas em Javascript">
+                    </a>
+                </div>
+                <p class="description">Conjunto de atividades realizadas em aula para treinar lógica de programação com Javascript</p>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<footer>
+    <div id="Contato" class="contact">
+        <h2>Vamos conversar?</h2><br>
+        <p>
+            Ficarei feliz em saber mais sobre seus projetos e como podemos trabalhar juntos para torná-los realidade.
+        </p><br>
+        <div>
+            <span>kauanhenrique5696@gmail.com</span><br>
+            <span>(11)99658-8339</span>
+        </div>
+        <ul>
+            <a href="https://github.com/Kauan-Henrique-de-Souza" class="icon" target="_blank">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+              <a href="https://www.instagram.com/https_kauaan/" target="_blank">
+                <ion-icon name="logo-instagram"><ion-icon>
+              </a>
+              <a href="https://www.linkedin.com/in/kauanhenrique-souza/" target="_blank">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+        </ul>
+    </div>
+</footer>
+<!--Skills-->
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+</body>
+</html>
